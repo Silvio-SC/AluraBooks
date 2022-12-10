@@ -22,4 +22,28 @@
 
 .swiper-pagination {
     margin: .5rem 0;
+    position: relative;
+}
+
+@media screen and (min-width: 1024px){
+
+    .carrossel {
+        background-color: inherit;
+    }
+    .carrossel__titulo {
+        background-color: var(--cor-branca);
+        font-size: 26px;
+    }
+    
+    .swiper-pagination {
+        margin: 2rem 0 3rem 0;
+    }
+    .swiper {
+        width: 60%;
+    }
+    .swiper-button-prev, 
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
 }
