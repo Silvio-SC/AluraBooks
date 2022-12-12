@@ -29,6 +29,11 @@
     font-weight: 700;
  }
 
+ .tópicos__link:hover {
+   color: var(--cor-laranja);
+   background-color: var(--cor-branca);
+   }
+
  @media screen and (min-width: 1024px){
    .topicos__titulo {
       font-size: 24px;
@@ -36,4 +41,10 @@
    .topicos__link {
       font-size: 24px;
    }  
+ }
+
+ @media screen and (min-width: 1728px) {
+   .topicos {
+      padding: 1rem 30vw;
+   }
  }

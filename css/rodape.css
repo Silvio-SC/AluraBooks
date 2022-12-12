@@ -11,6 +11,10 @@ hr {
     display: none;
 }
 
+.lista-rodapé__link:hover {
+    color: var(--cor-laranja);
+    }
+
 @media screen and (min-width: 1024px){
     .rodapé {
         display: flex;
@@ -39,5 +43,15 @@ hr {
 
     .rodapé-titulo {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodapé {
+        padding: 3rem 0 ;
+    }
+    .lista-rodape {
+        padding-left: 1rem;
+        border-left: 1px solid var(--cor-cinza-claro);
     }
 }

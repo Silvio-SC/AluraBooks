@@ -1,5 +1,4 @@
 .carrossel{
-    background-color: var(--cor-branca);
     text-align: center;
 }
 
@@ -9,6 +8,7 @@
     font-size: 18px;
     font-weight: 700;
     padding: 1rem 0 0.5rem 0;
+    background-color: var(--cor-branca);
 }
 
 .swiper-slide img {
@@ -21,7 +21,7 @@
 }
 
 .swiper-pagination {
-    margin: .5rem 0;
+    margin: 1rem 0;
     position: relative;
 }
 
@@ -31,7 +31,6 @@
         background-color: inherit;
     }
     .carrossel__titulo {
-        background-color: var(--cor-branca);
         font-size: 26px;
     }
     
@@ -46,4 +45,20 @@
         display: block;
         top: 60%;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3rem 20vw;
+    }
+
+    .swiper-pagination {
+        margin: 1rem 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
 }

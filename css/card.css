@@ -56,3 +56,22 @@
     }
     
 }
+
+@media screen and (min-width: 1728px) {
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .descricao{
+        margin-right: 2rem;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 4rem;
+    }
+}
